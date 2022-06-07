@@ -1,0 +1,21 @@
+{
+  "files.associations": {
+    "*.txt": "plaintext",
+    "*.tcc": "cpp",
+    "list": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "istream": "cpp",
+    "ostream": "cpp",
+    "streambuf": "cpp",
+    "functional": "cpp",
+    "array": "cpp",
+    "chrono": "cpp",
+    "compare": "cpp",
+    "ratio": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp",
+    "variant": "cpp"
+  }
+}
