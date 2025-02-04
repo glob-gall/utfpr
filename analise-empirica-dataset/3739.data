@@ -1,0 +1,78 @@
+-- ASSESSMENT DATA:
+---- assessment title: Exercícios de Desafio 6: Repetição por Contagem
+---- class name: Introdução à Programação de Computadores
+---- class number: 403
+---- start: 2022-08-17 12:30
+---- end: 2022-08-29 09:59
+---- language: Python 3
+---- codemirror mode: python/python.js
+---- type: homework
+---- weight: 0
+---- total_exercises: 5
+-- EXERCISES:
+---- exercise 01: 2135
+Validador de senhas
+ 
+
+Na Universidade Federal do Amazonas (UFAM), um aluno deve se matricular no site do ecampus por meio do seu email e senha. Um dos pré-requisitos para finalizar o cadastro é que a senha deva possuir pelo menos 01 caractere maiúsculo, 01 caractere minúsculo e pelo menos 8 caracteres no total.
+
+Escreva um programa que valide a senha. Dado uma string de tamanho N >= 8 como entrada, verifique se ela:
+
+ 
+
+Contém pelo menos 01 caractere maiúsculo
+Contém pelo menos 01 caractere minúsculo
+Possui pelo menos 8 caracteres
+ 
+
+Como saída, imprima SENHA VALIDA caso a senha seja validada. Caso contrário, imprimir SENHA INVALIDA.
+
+
+---- exercise 02: 2136
+Tipos de Entretenimento
+ 
+
+Um aluno realizou uma pesquisa para levantar as preferências de entretenimento dos colegas de turma, entre as seguintes opções: TV, Netflix e Youtube.
+
+Escreva um programa que leia um vetor de strings, onde cada posição representa o tipo de entretenimento preferido do aluno entrevistado entre as opções disponíveis.
+
+Como saída, imprima um vetor de três elementos inteiros, correspondentes à quantidade de alunos que escolheram cada entretenimento, nesta ordem: TV, NETFLIX e YOUTUBE.
+
+---- exercise 03: 2137
+Série Harmônica
+ 
+
+A série harmônica é definida assim:
+
+ 
+
+
+
+ 
+
+ou seja:
+
+ 
+
+
+
+ 
+
+Faça um programa que leia um inteiro N e imprima a soma dos N primeiros termos da série harmônica. O resultado deve ser impresso com até 2 casas decimais.
+
+---- exercise 04: 2138
+Linguagem Internetês
+Com o advento da Internet surgiu uma nova linguagem, chamada de Internetês. Nesta linguagem, os usuários costumam escrever muitas palavras de forma reduzida, normalmente removendo as vogais das palavras.
+
+Por exemplo, a frase “tudo bem?” pode ser representada por “td bm?”.
+
+Faça um script que leia uma palavra qualquer e a imprima em “internetês”. Para “traduzir” uma palavra para internetês, basta remover as vogais.
+
+---- exercise 05: 2139
+
+Força Acumulada Par
+O professor de Introdução à Programação de Computadores deseja separar uma turma em dois grupos. Ele decidiu usar a pontuação de força acumulada dos alunos, do jogo utilizado no Codebench, como critério de separação da turma da seguinte forma:
+
+Se a força acumulada pelo aluno for par, o aluno faz parte do Grupo 1.
+Se a força acumulada pelo aluno for ímpar, o aluno faz parte do Grupo 2.
+A entrada deve ser um vetor contendo a força acumulada de cada aluno, em valores inteiros. A saída deve ser um vetor com apenas as forças acumuladas do Grupo 1, em valores inteiros.

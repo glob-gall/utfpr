@@ -1,0 +1,145 @@
+-- ASSESSMENT DATA:
+---- assessment title: Lab 7 - Matrizes
+---- class name: Introdução à Programação de Computadores
+---- class number: 404
+---- start: 2022-08-31 15:20
+---- end: 2022-09-19 14:00
+---- language: Python 3
+---- codemirror mode: python/python.js
+---- type: homework
+---- weight: 1
+---- total_exercises: 10
+-- EXERCISES:
+---- exercise 01: 3664
+Escreva um programa que leia dois números inteiros M e N, positivos.
+
+O valor de M será relativo à quantidade de linhas e N à quantidade de colunas de uma matriz que será criada.
+
+Em seguida, crie e imprima uma matriz de MxN posições, todas preenchidas com o valor 0 (zero), do tipo inteiro.
+
+---- exercise 02: 3665
+Informações básicas de uma matriz
+Escreva um programa que leia uma matriz digitada pelo usuário. Em seguida, o programa deverá imprimir as seguintes informações sobre a matriz informada pelo usuário, nesta ordem:
+
+Quantidade de elementos da matriz;
+Dimensão da matriz;
+Número de linhas da matriz;
+Número de colunas da matriz;
+Elemento na linha 0 e coluna 0 da matriz;
+Elemento na última linha e na última coluna da matriz;
+Primeira linha da matriz;
+Penúltima linha da matriz;
+Maior elemento da matriz;
+Menor elemento da matriz;
+Soma dos elementos da matriz;
+Média aritmética dos elementos da matriz, com até duas casas decimais de precisão. 
+
+---- exercise 03: 2220
+Maior pagamento da semana
+Um grupo de funcionários trabalha em uma empresa que paga pela produção diária. Desta forma, os funcionários recebem salários diferenciados de acordo com o que produziram.
+
+Escreva um programa que leia uma matriz N × 7, sendo N > 1 o número de funcionários. Em seguida, imprima para cada funcionário o maior pagamento da semana.
+
+Considere que:
+
+Cada coluna representa um dia da semana, de domingo a sábado.
+Cada linha representa um funcionário da empresa.
+
+
+---- exercise 04: 2221
+Média das menores notas
+Uma turma de N alunos recebe 4 notas por semestre. Neste semestre, os professores decidiram verificar qual era a média das menores notas dos alunos.
+
+Escreva um programa que leia uma matriz N × 4, sendo N > 1 o número de alunos. Em seguida, verifique qual é a menor nota de cada aluno e some com as menores notas dos demais alunos. Por fim, determine a média das menores notas com duas casas decimais.
+
+Considere que:
+
+Cada coluna representa uma nota do semestre.
+Cada linha representa um aluno.
+
+---- exercise 05: 1722
+Área média dos retângulos
+Uma matriz de dimensões \(N \times 2\) armazena as medidas da base e da altura de \(N\) retângulos. Nessa matriz, a primeira coluna indica o tamanho da base do \(N\)-ésimo retângulo e a segunda coluna indica a altura, ou seja, N representa o i-ésimo retângulo onde 0<i<=N.
+
+Escreva um programa que tenha como entrada uma matriz \(N \times 2\). Como saída, imprima a média das áreas dos \(N\) retângulos, com duas casas decimais de precisão.
+
+---- exercise 06: 1276
+Horas de trabalho por dia da semana
+Uma empresa armazena as horas de trabalho semanais dos N funcionários em uma tabela semelhante à do exemplo abaixo:
+
+Cada coluna representa um dia da semana, de domingo a sábado.
+Cada linha representa um funcionário da empresa.
+Por exemplo, a tabela a seguir armazena as horas de trabalho de quatro funcionários (N = 4).
+
+
+
+Escreva um programa que leia uma matriz N × 7, sendo N > 1 o número de funcionários. Em seguida, determine qual o dia da semana em que os funcionários mais trabalham.
+
+A saída do programa deverá ser um número inteiro de 1 a 7, indicando respectivamente domingo, segunda, ..., sábado.
+
+
+
+---- exercise 07: 3209
+Listagem de produtos por departamento - total de valores
+Um supermercado deseja verificar qual setor tem o maior valor em produtos para fazer uma distribuição dos valores a serem investidos por departamento. O gerente do supermercado deseja imprimir uma relação a fim de auxiliar sua tomada de decisão. Cada setor deve conter a mesma quantidade de produtos. O gerente organizou a lista dos produtos por setor em uma string separando os preços dos produtos por vírgula. Após a inserção dos preços cada string deverá ser armazenada em uma matriz. Onde, cada linha da matriz representa um setor e cada coluna um preço por produto do setor.
+
+Faça um programa que leia:
+
+A quantidade de setores
+A quantidade de produtos
+A lista de preços de produtos por setor.
+O programa deverá imprimir uma matriz com a relação dos preços dos produtos e a soma total de preços por setor.
+
+---- exercise 08: 3215
+Acompanhamento de frequência - maior número de faltas
+O professor do curso de Ciência da Computação deseja fazer uma análise sobre a frequência dos alunos. Para isso, precisa organizar uma matriz com a quantidade de faltas de cada aluno.  Os dados das matrículas foram organizados em uma string e a faltas foram preenchidas individualmente.
+
+Faça um programa que leia como entrada:
+
+A lista de matrículas dos alunos como uma string só,
+O número de faltas dos alunos, um de cada vez, conforme os exemplos.
+Como saída, o programa deverá imprimir uma matriz com a relação de alunos e suas respectivas faltas, e informar a matrícula do aluno que possui o maior número de faltas.
+
+---- exercise 09: 1279
+Aventuras com moedas e zumbis
+Considere um jogo, em que o personagem, chamado Joe, caminha por um cenário representado por uma matriz semelhante à da figura abaixo.
+
+
+
+O jogo começa com Joe na posição (0,0) da matriz, tendo zero moedas e força vital de 100 (variável life). À medida que ele caminha no cenário, ele pode passar por três tipos de células: vazia, zumbi e moeda.
+
+Se ele passa por uma célula vazia (indicada pelo número 0), não acontece nada.
+Se ele passa por uma célula que contém um zumbi (indicado pelo número 22), então perde 5 pontos de vida.
+Se ele passa por uma célula que contém uma moeda (indicada pelo número 11), então coleta essa moeda para dentro da bolsa.
+A figura abaixo exemplifica tal abstração de representar elementos do jogo por meio de números:
+
+
+
+ 
+
+Do ponto de vista do jogador, os únicos movimentos possíveis são: esquerda, direita, para cima e para baixo. Eles são representados respectivamente pelos caracteres A, D, W e S, armazenados em uma string. Por exemplo, a figura abaixo ilustra a movimentação do Joe após a sequência de movimento ‘DDDSSAW’:
+
+ 
+
+ 
+
+Com base nas características acima, escreva um programa que leia duas entradas:
+
+Uma matriz de dimensões quaisquer, contendo uma disposição qualquer de moedas e zumbis, não necessariamente igual às das figuras acima.
+Uma string contendo os movimentos do Joe. Considere que eles são sempre válidos, ou seja, nunca farão o personagem ultrapassar os limites da matriz que representa o cenário do jogo.
+Ao final da sequência de movimentos informados pela string, seu programa deverá apresentar as seguintes saídas:
+
+A posição x (coluna da matriz) do personagem.
+A posição y (linha da matriz) do personagem.
+O número de moedas coletadas.
+O nível de força vital resultante.
+
+
+---- exercise 10: 1280
+
+Obstáculos no jogo
+Modifique o jogo do exercício anterior para considerar as seguintes características:
+
+Se o movimento posicionar o personagem para fora dos limites da matriz, então o programa deve ignorar o movimento. Ou seja, o Joe deve permanecer no mesmo lugar.
+
+Se a célula contiver um muro (indicado pelo valor 33), então o personagem deve permanecer onde estava. Ou seja, o Joe não pode entrar em uma célula que contém um muro.

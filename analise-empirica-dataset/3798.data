@@ -1,0 +1,67 @@
+-- ASSESSMENT DATA:
+---- assessment title: Extras 7: Matrizes
+---- class name: Introdução à Programação de Computadores
+---- class number: 404
+---- start: 2022-08-31 15:30
+---- end: 2022-09-19 14:00
+---- language: Python 3
+---- codemirror mode: python/python.js
+---- type: homework
+---- weight: 0
+---- total_exercises: 8
+-- EXERCISES:
+---- exercise 01: 3684
+Diagonal principal X diagonal secundária
+Escreva um programa que leia uma matriz quadrada formada por números inteiros. Como saída, imprima a diferença entre a soma dos valores da diagonal principal e da diagonal secundária.
+
+---- exercise 02: 3687
+Gerando matriz a partir de vetores (versão A)
+Escreva um programa que leia um vetor de inteiros de tamanho N.
+
+Logo após, imprima uma matriz NxN, onde N é o tamanho do vetor de entrada e cada linha contém os elementos do vetor lido do usuário.
+
+---- exercise 03: 3688
+Gerando matriz a partir de vetores (versão B)
+Escreva um programa que leia um vetor de tamanho N.
+
+Logo após, imprima uma matriz NxN, onde N é o tamanho do vetor de entrada e cada coluna contém os elementos do vetor lido do usuário.
+
+---- exercise 04: 3686
+Matriz inversa (versão 2)
+Escreva uma função que, dadas duas matrizes quadradas de dimensão n×n, \(A\) e \(B\), verifique se \(B\) é a inversão de \(A\), isto é, se \(B\) é igual a \(A^{-1}\). Se \(B\) for a inversa, o produto de \(A\) por \(B\) resulta numa matriz identidade. A função deve retornar 1 se \(B\) é a inversa de \(A\) e 0 caso contrário.
+
+---- exercise 05: 3689
+Soma de matrizes
+Implemente um programa para somar duas matrizes. 
+
+O programa deve ler duas matrizes A e B de mesma dimensão e como saída deve gerar a matriz C = A + B. 
+
+Dadas as  matrizes A = (aij)m x n  e B = (bij)m x n  e C = A + B, tem-se que  matriz C = (cij) m x n,em que cada elemento cij =aij +  bij .
+
+Não é permitido do uso do módulo numpy.linalg nessa questão.
+
+---- exercise 06: 3690
+Multiplicação estrutural de matrizes
+A multiplicação estrutural multiplica a matriz elemento a elemento.
+
+Dadas as  matrizes A = (aij)m x n  e B = (bij)m x n é a matriz C = (cij) m x n,em que cada elemento cij =aij * bij .
+
+Você NÃO pode usar a função prod() do módulo numpy.
+
+---- exercise 07: 3691
+Multiplicação matricial
+Escreva um programa em Python para realizar a multiplicação matricial de duas matrizes. Para isso, o programa de ler como entrada duas matrizes. E como saida, seu programa deve imprimir a matriz resultante.
+
+Lembre-se que:
+
+O produto das matrizes A = (aij)m x p  e B = (bij)p x n é a matriz C = (cij) m x n, em que cada elemento cij é obtido por meio da soma dos produtos dos elementos correspondentes da i-ésima linha de A pelos elementos da j-ésima coluna B.
+
+(Fonte: https://www.somatematica.com.br/emedio/matrizes/matrizes4.php)
+
+---- exercise 08: 3685
+Quadrado mágico (versão 2)
+Uma matriz quadrada \(N \times N\) é um quadrado mágico se as somas dos elementos das linhas, colunas e diagonais são iguais.
+
+
+
+Escreva um programa que leia uma matriz de inteiros e verifica se essa matriz é um quadrado mágico de tamanho \(N\). Como saída, seu programa deve imprimir a palavra sim se a matriz representa um quadrado mágico e a palavra nao caso contrário.

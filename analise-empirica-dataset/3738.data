@@ -1,0 +1,169 @@
+-- ASSESSMENT DATA:
+---- assessment title: Lab 6 - Repetição por Contagem (for)
+---- class name: Introdução à Programação de Computadores
+---- class number: 403
+---- start: 2022-08-17 11:35
+---- end: 2022-08-29 09:59
+---- language: Python 3
+---- codemirror mode: python/python.js
+---- type: homework
+---- weight: 1
+---- total_exercises: 10
+-- EXERCISES:
+---- exercise 01: 2588
+
+Veículos trafegando em alta velocidade
+Objetivo: Contar multas graves em uma determinada avenida.
+
+A Superintendência Municipal de Transportes Urbanos (SMTU) instalou um radar móvel em pontos da cidade para identificar e multar motoristas que ultrapassam o limite de velocidade da via monitorada.
+
+Escreva um programa que leia o vetor com o registro das velocidades medidas pelo radar móvel. O primeiro valor do vetor indica o limite de velocidade da via. Os demais valores são os registros de velocidade dos carros que trafegam na via.
+
+Como saída, determine quais e quantos motoristas infringiram o limite de velocidade em mais de 20% e menos que 50% acima da velocidade máxima permitida para a via.
+
+---- exercise 02: 3189
+Contar ocorrências (2): Aprovação em disciplina
+Na Universidade Federal do Amazonas (UFAM), um aluno é aprovado em uma disciplina se atender a dois critérios:
+
+Média final igual ou superior a 5,0.
+Frequência igual ou superior a 75% da carga horária.
+Se a frequência for menor que 75%, o aluno é reprovado por frequência, independentemente da sua nota.
+
+O aluno é reprovado por nota se, tendo comparecido ao número mínimo de aulas, não atingiu a média exigida.
+
+Escreva um programa que leia as seguintes informações de uma disciplina, nesta ordem:
+
+Um vetor contendo médias finais de cada aluno;
+Um vetor contendo a presença (número de horas) dos alunos em uma disciplina;
+A carga horária da disciplina.
+Como saída, imprima um vetor de três posições, nesta ordem:
+
+Número de alunos aprovados;
+Número de alunos reprovados por nota;
+Número de alunos reprovados por frequência.
+Considere que as entradas fornecidas são sempre válidas:
+
+As notas variam entre 0,0 e 10,0;
+A frequência entre 0 e a carga horária;
+Os vetores de notas e de frequência têm tamanhos iguais.
+
+---- exercise 03: 3620
+Contar ocorrências (1): Time de Futebol
+Os resultados das partidas de um time de futebol ao longo de um campeonato são armazenados em dois vetores de mesmo tamanho:
+
+O primeiro vetor guarda o número de gols efetuados por esse time em cada partida.
+O segundo vetor guarda o número de gols efetuados pelo time adversário.
+Uma posição i de cada vetor indica a i-ésima partida realizada.
+
+Escreva um programa que leia esses dois vetores, na ordem em que foram explicados. Como saída, imprima um vetor de três posições, contendo os seguintes dados, em ordem, em relação ao time:
+
+Número de vitórias;
+
+Número de empates;
+
+Número de derrotas;
+
+Considere que as entradas fornecidas são sempre válidas, ou seja:
+
+Os dois vetores de entrada são de tamanho igual;
+Cada elemento do vetor, que indica o número de gols, é um inteiro não-negativo.
+
+---- exercise 04: 2139
+Força Acumulada Par
+O professor de Introdução à Programação de Computadores deseja separar uma turma em dois grupos. Ele decidiu usar a pontuação de força acumulada dos alunos, do jogo utilizado no Codebench, como critério de separação da turma da seguinte forma:
+
+Se a força acumulada pelo aluno for par, o aluno faz parte do Grupo 1.
+Se a força acumulada pelo aluno for ímpar, o aluno faz parte do Grupo 2.
+A entrada deve ser um vetor contendo a força acumulada de cada aluno, em valores inteiros. A saída deve ser um vetor com apenas as forças acumuladas do Grupo 1, em valores inteiros.
+
+#$#$#2140#!#!#
+Ler o valor de M (entre 3 e 7), que é a ordem da B (também chamado de grau máximo). Neste caso, a árvore B pode ter no máximo M filhos e possui M-1 chaves. Em seguida, deve ser lido diversas chaves. Considere que as chaves são valores inteiros (positivos e negativos) excluindo o valor zero. A última chave de entrada, que não deverá ser incluída na árvore B, por se tratar do critério de parada, possui o valor igual a zero.
+
+
+Durante a inserção de uma nova chave, caso o respectivo nó não seja capaz de receber nenhuma outra chave, deve-se fazer a divisão. Há diversas formas possíveis e imagináveis de se fazer tal divisão. Por favor, considere que deve-se dividir por dois com o seguinte critério: se M for par, o elemento que vai "subir" é exatamente o resultado da divisão; se M for impar o elemento que vai "subir" é a divisão mais 1. Por exemplo, para M=4, a divisão será igual a dois, que é o elemento que deve subir. Se M=5, a divisão inteira vai dar dois, mas o elemento que vai "subir" deve ser o terceiro. Considere que este é um dos requisitos do problema. Note que esta escolha está baseada no visualizador de árvores B que coloquei o link no início deste trabalho.
+
+Só que, antes de fazer a divisão, deve-se supor que o elemento já foi incluído. Supondo que M=4 e que as chaves atuais sejam 10, 20 e 30. Se for incluído o valor 40, a chave que deve subir deve ser a chave 20, que é a que divide as chaves central esquerda. Se, por outro lado, as chaves forem 20, 30 e 40 e a nova chave inserida for o valor 25, nesse caso a chave que “sobe” deve ser a chave 25, porque é a que divide as chaves central esquerda.
+
+Note também que o algoritmo do livro do Cormem é bem diferente do que está sendo pedido neste trabalho.
+
+Em seguida, imprima todas as chaves que estão nesta árvore  B, que deve ser impressa de forma ordenada.
+
+
+
+---- exercise 05: 1227
+Excluindo vogais
+Faça um programa que leia uma string como entrada. Como saída, imprima essa string excluindo a letra a, maiúscula ou minúscula, se houver.
+
+#$#$#1228#!#!#
+AFD válido:
+
+INI F1 F2 E1 ;
+0 1 ;
+INI ;
+F1 F2 ;
+INI 0 F2 ;
+INI 1 F1 ;
+F1 0 E1 ;
+F1 1 INI ;
+F2 1 E1 ;
+F2 0 INI ;
+E1 1 F2 ;
+E1 0 F1 ;
+# ;
+000 10011 0101 11100 ;
+
+Saída Esperada:
+000 sim
+10011 sim
+0101 nao
+11100 sim
+
+
+
+---- exercise 06: 1223
+Arte ASCII (1)
+Escreva um programa que imprima uma figura semelhante à representada abaixo, a partir da leitura do número de asteriscos presentes na base. Por exemplo, para uma entrada igual a 5, o resultado produzido será igual ao da figura abaixo.
+
+
+
+
+---- exercise 07: 1226
+Produtório
+Escreva um programa que leia um vetor de números reais x = (x1, x2, ..., xn) de dimensão n.
+
+Como saída, determine o seguinte valor: \[p = \sqrt[n] {\left| x_{1}-m \right|\times\left |x_{2}-m \right|\times \ldots \times\left| x_{n}-m \right|},\]
+
+onde m é a média do vetor x.
+
+Imprima o resultado com até 03 casas decimais de precisão.
+
+---- exercise 08: 2584
+Série de Termos com alteração de sinal
+Escreva um programa em Python que leia o número N de termos pertencentes a uma série de elementos e imprima o valor de H, sendo:
+
+\[ H = 1-\frac{1}{2}+\frac{1}{3}-\frac{1}{4}+...+\frac{1}{N}.\]
+
+Imprima o resultado na forma "H = resultado", onde resultado é o valor calculado de H com até 06 casas decimais de precisão.
+
+
+
+---- exercise 09: 2562
+Elementos pares
+Quantos elementos são pares?
+
+Escreva um script que leia do teclado um vetor de tamanho qualquer. Em seguida, determine:
+
+Quantos elementos são pares?
+Quantos são ímpares?
+Qual a quantidade de elementos?
+Seu script deve repetir esse procedimento indefinidamente para diversos vetores, de tamanhos variados, até que um vetor de apenas um elemento seja inserido, terminando a execução do script.
+
+---- exercise 10: 2563
+Aluno pode ser monitor?
+Aprovado, mas não pode ser monitor!
+
+Na UFAM, para que um aluno seja monitor de uma disciplina é necessário que ele tenha sido aprovado nessa disciplina com nota mínima de 7.
+
+Escreva um script que leia um vetor contendo as médias finais dos alunos matriculados em uma disciplina. Em seguida, determine a quantidade de alunos aprovados na disciplina (nota maior ou igual a 5), mas que não têm condições de ser monitor (nota menor que 7).
+
+Seu script deve repetir esse procedimento indefinidamente para diversos vetores, de tamanhos variados, correspondentes a outras disciplinas, até que um vetor de apenas um elemento seja inserido, terminando a execução do script.

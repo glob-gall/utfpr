@@ -1,0 +1,29 @@
+passar a questão das aulas pro chatGPT
+e verificar se passa nos testes da plataforma
+
+comparar com as respostas dos alunos
+
+
+
+1 -
+comparar o resultado dos testes da plataforma
+código dos alunos e do chatGPT
+verificar se o chat resolve os problemas
+
+2 -
+métricas
+tamanho do código
+complexidade
+numero de tokens
+legibilidade
+
+
+3 -
+olhar os casos que falharam
+
+pegar o código dos alunos e pedir para o chat: "o que aconteceu aqui"
+ver os tipos de melhorias, se melhorou, etc
+
+
+conclusão:
+se tudo der certo, o chatGPT pode criar worked examples.
